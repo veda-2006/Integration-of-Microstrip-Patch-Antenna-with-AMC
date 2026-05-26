@@ -17,8 +17,7 @@ The AMC structure improves antenna performance by:
 ## Tools Used
 
 - ANSYS HFSS
-- Electromagnetic Theory
-- Microwave Engineering Concepts
+
 
 ---
 
@@ -50,11 +49,37 @@ The AMC structure improves antenna performance by:
 
 - Without AMC: -34 dB
 - With AMC: -19 dB
+- Resonant Frequency: 10 GHz
 
 ### Gain
 
 - Without AMC: 5.3 dB
 - With AMC: 6.0 dB
+
+### Radiation Pattern
+
+- Without AMC:
+  - Broader radiation pattern
+  - Higher back-lobe radiation
+  - Lower directivity
+
+- With AMC:
+  - More directional radiation pattern
+  - Reduced back radiation
+  - Improved front-to-back ratio
+  - Enhanced radiation efficiency
+
+### VSWR
+
+- Without AMC:
+  - VSWR ≈ 1.05 at 10 GHz
+  - Excellent impedance matching
+
+- With AMC:
+  - VSWR ≈ 1.2 at 10 GHz
+  - Maintains good impedance matching
+  - Efficient power transfer
+
 
 ### Advantages of AMC
 
